@@ -48,44 +48,53 @@ function App() {
   };
 
   return (
-    <div className="App">
-      <h1 style={{textAlign:"center", backgroundColor:"black", color:"white"}}>Blogs</h1>
-      <Blog
-        title={blog_1.title}
-        author={blog_1.author}
-        published_date={blog_1.published_date}
-        tags={blog_1.tags}
-        description={blog_1.description}
-      />
-      <Blog
-        title={blog_2.title}
-        author={blog_2.author}
-        published_date={blog_2.published_date}
-        tags={blog_2.tags}
-        description={blog_2.description}
-      />
-      <Blog
-        title={blog_3.title}
-        author={blog_3.author}
-        published_date={blog_3.published_date}
-        tags={blog_3.tags}
-        description={blog_3.description}
-      />
-      <Blog
-        title={blog_4.title}
-        author={blog_4.author}
-        published_date={blog_4.published_date}
-        tags={blog_4.tags}
-        description={blog_4.description}
-      />
-      <Blog
-        title={blog_5.title}
-        author={blog_5.author}
-        published_date={blog_5.published_date}
-        tags={blog_5.tags}
-        description={blog_5.description}
-      />
-    </div>
+    <div>
+      <h1
+        style={{
+          textAlign: "center",
+          backgroundColor: "black",
+          color: "white",
+          margin: "0px",
+        }}
+      >
+        Blogs
+      </h1>
+        <Blog
+          title={blog_1.title}
+          author={blog_1.author}
+          published_date={blog_1.published_date}
+          tags={blog_1.tags}
+          description={blog_1.description}
+        />
+        <Blog
+          title={blog_2.title}
+          author={blog_2.author}
+          published_date={blog_2.published_date}
+          tags={blog_2.tags}
+          description={blog_2.description}
+        />
+        <Blog
+          title={blog_3.title}
+          author={blog_3.author}
+          published_date={blog_3.published_date}
+          tags={blog_3.tags}
+          description={blog_3.description}
+        />
+        <Blog
+          title={blog_4.title}
+          author={blog_4.author}
+          published_date={blog_4.published_date}
+          tags={blog_4.tags}
+          description={blog_4.description}
+        />
+        <Blog
+          title={blog_5.title}
+          author={blog_5.author}
+          published_date={blog_5.published_date}
+          tags={blog_5.tags}
+          description={blog_5.description}
+        />
+      </div>
   );
 }
 
